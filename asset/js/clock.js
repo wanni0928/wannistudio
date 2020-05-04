@@ -5,7 +5,7 @@ const minuteToSeconds = 60; // a minute to seconds
 const dayTohour = 24;
 
 function getTime(){
-    const D_Day = new Date("2020-05-09T00:00:00Z");
+    const D_Day = new Date("2020-05-06T00:00:00Z");
     // const D_Day = new Date().toUTCString("2020-05-09 00:00:00");
     const now = new Date();
     const milliseconds = D_Day - now;
