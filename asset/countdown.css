@@ -1,0 +1,11 @@
+body, table, th, td, button, select, input {
+	font-family: 'Lato', 'Noto Sans KR', "돋움", Dotum, Arial, sans-serif;
+	font-size:24px;
+	color:#323232;
+}
+.countdown {position: absolute; top: 30%; left: 0; right: 0; margin: 0 auto; color: #ffffff; text-align: center;}
+
+.countdown .clock { font-size: 60px;
+    margin: 20px 0px;}
+.notice {font-size: 42px;}
+.info {line-height: 1.5;}
