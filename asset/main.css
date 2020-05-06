@@ -1,0 +1,20 @@
+/*main visual*/
+main {}
+main .main-visual {height: 969px; background-color: #666; position: relative; z-index: -1;}
+main .main-visual .page-num {    position: absolute; bottom: 0; left: 0; right: 0; margin: 0 auto; width: 120px;}
+main .main-visual .slide-wrap {height: 100%;}
+main .main-visual .slide-wrap ul {display: block; height: 100%;}
+main .main-visual .slide-wrap ul li.slide-page {height: 100%;}
+main .main-visual .slide-wrap ul li.slide-page .slide-bg {height: 100%;}
+main .main-visual .slide-wrap ul li.slide-page .slide-bg .slide-content {}
+main .main-visual .slide-wrap ul li.slide-page .slide-bg .slide-content p.slide-txt {}
+main .main-visual .slide-wrap ul li.slide-page .slide-bg .slide-content a.slide-btn {}
+main .main-visial .page-num {}
+/*section common*/
+section {}
+section article {}
+section article h3 {}
+section article .article-bg {}
+section article .article-txt {}
+/*article -portfolio-*/
+section.portfolio-sec {min-height: 500px;}
