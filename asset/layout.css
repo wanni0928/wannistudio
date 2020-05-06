@@ -1,0 +1,43 @@
+/********Common***********/
+body, table, th, td, button, select, input {
+	font-family: 'Lato', 'Noto Sans KR', "돋움", Dotum, Arial, sans-serif;
+	font-size:13px;
+	color:#323232;
+}
+
+.container {width: 1200px; height: 100%; margin: 0 auto;}
+.clearfix::after {content:""; clear: both; display: block;}
+.primary-color{background-color: #222831;}
+.sub-color{background-color: #f38181;}
+.bg-color{background-color: #fafafa;}
+.font-color-black {color: #323232;}
+.font-color-white {color: #fafafa}
+
+/********Header***********/
+
+/*gnb*/
+header {position: absolute; top: 0; left: 0; width: 100%; height: 60px; z-index: 1;}
+header .header-wrap {width: 100%; text-align: center;}
+header .logo {float: left;}
+header .logo a {display: block; line-height: 60px;}
+header .gnb {display: inline-block;}
+header .gnb li {float: left;}
+header .gnb li a {display: block;padding: 20px 41px;font-size: 19px;color: #fafafa;}
+/*language*/
+header .lang-list {float: right; line-height: 60px;}
+header .lang-list li {display: inline-block; vertical-align: middle;}
+header .lang-list li a {display: block;}
+
+/*********sub page***********/
+
+
+/**********footer***********/
+footer {padding: 39px 0 42px; color: #c9d6df;}
+footer .footer-social {}
+footer .terms-col {}
+footer .terms-col a {color: #c9d6df;}
+footer .terms-col span {}
+
+/**********Scroll Top*******/
+.scroll-top {}
+.scroll-top a {color: #c9d6df;}
