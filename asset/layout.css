@@ -19,14 +19,14 @@ body, table, th, td, button, select, input {
 header {position: absolute; top: 0; left: 0; width: 100%; height: 60px; z-index: 1;}
 header .header-wrap {width: 100%; text-align: center;}
 header .logo {float: left;}
-header .logo a {display: block; line-height: 60px;}
+header .logo a {display: block; width: 110px; height: 22px; background-image: url(./imgs/logopng.png); font-size: 0; background-position: 50%;margin: 19px 0;}
 header .gnb {display: inline-block;}
 header .gnb li {float: left;}
-header .gnb li a {display: block;padding: 20px 41px;font-size: 19px;color: #fafafa;}
+header .gnb li a {display: block; padding: 20px 41px;font-size: 19px;color: #fafafa;}
 /*language*/
 header .lang-list {float: right; line-height: 60px;}
 header .lang-list li {display: inline-block; vertical-align: middle;}
-header .lang-list li a {display: block;}
+header .lang-list li a {display: block;color: #fafafa;}
 
 /*********sub page***********/
 
@@ -40,4 +40,4 @@ footer .terms-col span {}
 
 /**********Scroll Top*******/
 .scroll-top {}
-.scroll-top a {color: #c9d6df;}
+.scroll-top a {color: #c9d6df; position: fixed; right: 200px; bottom: 150px; width: 50px; height: 50px; line-height: 50px; background-color: #323232; text-align: center; border-radius: 100%;}
