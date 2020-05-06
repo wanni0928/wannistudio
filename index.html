@@ -6,22 +6,103 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./asset/reset.css">
-    <link rel="stylesheet" href="./asset/countdown.css">
+    <link rel="stylesheet" href="./asset/layout.css">
+    <link rel="stylesheet" href="./asset/main.css">
+    <link rel="stylesheet" href="./asset/responsive.css">
 </head>
-<body>
-    <img width="100%" src="./images/soon.jpg" alt="">
-    <div class="countdown">
-        <h2 class="notice">
-            This website will be published
-            <br>
-            on May 6th 00:00:00
-        </h2>
-        <h2 class = "js-countdown clock"></h2>
-        <p class="info">
-            language : HTML, CSS, Javascript(vanilla)<br>
-            position : design 100%, front 100%, back 0%<br>
-        </p>
-    </div>
-    <script src="./asset/js/clock.js"></script>
+<body class="bg-color">
+    <header>
+        <div class="header-wrap primary-color">
+            <div class="container clearfix">
+                <h2 class="logo">
+                    <a href="#">WanniStudio</a>
+                </h2>
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="#">menu1</a>
+                        </li>
+                        <li>
+                            <a href="#">menu2</a>
+                        </li>
+                        <li>
+                            <a href="#">menu3</a>
+                        </li>
+                        <li>
+                            <a href="#">menu4</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="lang-list">
+                    <li>
+                        <a href="#">KOR</a>
+                    </li>
+                    <li>
+                        <a href="#">ENG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-visual">
+            <div class="slide-wrap">
+                <ul>
+                    <li class="slide-page">
+                        <div class="slide-bg">
+                            <div class="container">
+                                <div class="slide-content">
+                                    <p class="slide-txt">Thumnail text</p>
+                                    <a class="slide-btn" href="#">link btn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-num">
+                <p>1 / 4</p>
+            </div>
+        </div>
+        <section class = "portfolio-sec">
+            <div class="container">
+                <article class = "portfolio-article">
+                    <h3 class="article-title">
+                        article title
+                    </h3>
+                    <div class="article-bg"></div>
+                    <p class="article-txt">
+                        article content info
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="primary-color">
+        <div class="container">
+            <div class="footer-social">
+                <div class="social-icons">
+                    <a href="#">
+                        <span class="social-logo"></span>
+                        <span class="social-explain"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-terms">
+                <div class="terms-col">
+                    <span>ⒸWanniStudio Powered by myself.</span>
+                    <span>Contact: chlgudwnd123@gmail.com</span>
+                </div>
+                <div class="terms-col">
+                    <a href="#">
+                        Contact me
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-top">
+                <a href="#">TOP</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
