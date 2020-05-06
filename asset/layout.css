@@ -12,6 +12,7 @@ body, table, th, td, button, select, input {
 .bg-color{background-color: #fafafa;}
 .font-color-black {color: #323232;}
 .font-color-white {color: #fafafa}
+.layout-shadow {box-shadow: 0 0 65px rgba(121, 121, 121, 0.3);}
 
 /********Header***********/
 
